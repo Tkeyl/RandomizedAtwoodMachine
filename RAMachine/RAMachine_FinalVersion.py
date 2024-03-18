@@ -1,15 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[7]:
-
 
 import sympy
 import random
 from IPython.display import SVG, display
-
-
-# In[19]:
 
 
 ########## setting variables as symbols for returned dictionaries ##############################
@@ -309,10 +304,3 @@ def RAMachine():
 #####################################################################
 ################# CODE ENDS #########################################
 #####################################################################
-
-
-# In[ ]:
-
-
-
-

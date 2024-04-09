@@ -60,7 +60,7 @@ def RAMachine():
     while m1max is None or m1max <=m1min:
         try:
             m1max = float(input("Input a maximum value for the left mass as a positive number: "))
-            if m1max <=0:
+            if m1max <=m1min:
                 print("Incorrect input type. Try again.\n")
         except:
             print("Incorrect input type. Try again.\n")   
@@ -78,7 +78,7 @@ def RAMachine():
     while m2max is None or m2max <=m2min:
         try:
             m2max = float(input("Input a maximum value for the right mass as a positive number: "))
-            if m2max <=0:
+            if m2max <=m2min:
                 print("Incorrect input type. Try again.\n")
         except:
             print("Incorrect input type. Try again.\n")   
